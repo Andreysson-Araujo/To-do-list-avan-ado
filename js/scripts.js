@@ -35,14 +35,7 @@ const saveTodo = (text) => {
   deleteBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
   todo.appendChild(deleteBtn);
 
-  //Utilizar dados da localStorage
-  if (done) {
-    todo.classList.add("done");
-  }
-
-  if (save) {
-    save
-  }
+  //Utilizar dados da localStorage em breve
 
   todoList.appendChild(todo);
 
@@ -192,10 +185,10 @@ filterBtn.addEventListener("change", (e) => {
 
 //LOCAL STORAGE
 
+/*
 const getTodosLocalStorage = () => {
     const todos = JSON.parse(localStorage.getItem("todos")) || [];
 
     return todos
-    
 };
-// em andamento....
+*/
